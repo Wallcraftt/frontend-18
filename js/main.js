@@ -15,7 +15,7 @@ function displayTime(){
   document.querySelector(".minutes").innerHTML = min
   document.querySelector(".seconds").innerHTML = sec
 }
-
+setInterval(displayTime,10)
 
 
 let slideIndex = 1;
