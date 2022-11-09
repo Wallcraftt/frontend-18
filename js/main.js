@@ -15,6 +15,9 @@ function displayTime(){
   document.querySelector(".minutes").innerHTML = min
   document.querySelector(".seconds").innerHTML = sec
 }
+
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
